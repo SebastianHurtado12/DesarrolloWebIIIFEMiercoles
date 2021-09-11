@@ -1,6 +1,14 @@
-.card{
-    background-color: royalblue;
+.card {
+    background-color: rgb(67, 114, 252);
     margin: 5px;
+    padding: 0%;
+    border: none;
+}
+.card-body{
+    margin: 5px;
+}
+.btn{
+    background-color: blueviolet;
 }
 
 body{

@@ -6,23 +6,20 @@ let nombres=[
 /*Creo la funcion*/
 function render(){
     /*obtengo el elemento html para su posterior manipulamiento*/ 
-    let contenedor= document.getElementById('root')
+    let contenedor= document.getElementById('root');
     /*para cada entrada que posee el array realizo lo siguiente*/ 
     nombres.forEach(nom=> 
         /*inserto el siguiente codigo html como hijo del elemento html obtenido*/ 
         contenedor.innerHTML+=
-            `<div class='card col-4' style='width: 20rem;'> 
-                <div class='div-body'>
-                    
-                    <h4 class='card-title'>${nom}</h4> 
-                    <p class='card-text'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit id autem voluptatem quisquam. Sequi </p>
-                    <a href='#' class='btn'>GO SOMEWHERE</a>
-
-                </div>
-            </div>`         
+        `<div class='card col-4' >
+        <img src='./src/JsLogo.png' class='card-img-top' alt='Imagen'>
+        <div class='card-body'>
+            <h5 class='card-title'>${nom}</h5>
+            <p class='card-text'></p>
+            <a href='#' class='btn btn-primary'>Go somewhere</a>
+        </div>
+    </div>`        
     );
 }
 /*Llamo a la funcion */
 render();
-
-
