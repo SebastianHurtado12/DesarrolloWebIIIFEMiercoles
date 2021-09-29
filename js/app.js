@@ -12,13 +12,13 @@ function render(){
         /*inserto el siguiente codigo html como hijo del elemento html obtenido*/ 
         contenedor.innerHTML+=
         `<div class='card col-4' >
-        <img src='./src/JsLogo.png' class='card-img-top' alt='Imagen'>
-        <div class='card-body'>
-            <h5 class='card-title'>${nom}</h5>
-            <p class='card-text'></p>
-            <a href='#' class='btn btn-primary'>Go somewhere</a>
-        </div>
-    </div>`        
+            <img src='./src/JsLogo.png' class='card-img-top' alt='Imagen'>
+                <div class='card-body'>
+                    <h5 class='card-title'>${nom}</h5>
+                    <p class='card-text'></p>
+                    <a href='#' class='btn btn-primary'>Go somewhere</a>
+                </div>
+         </div>`        
     );
 }
 /*Llamo a la funcion */
